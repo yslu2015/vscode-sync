@@ -13,3 +13,10 @@ print("\nMatrix 2:")
 print(matrix2)
 print("\nResult of matrix multiplication:")
 print(result)
+
+# Calculate the eigenvalue and eigenvector of the first matrix
+eigenvalues, eigenvectors = np.linalg.eig(matrix1)
+print("\nEigenvalues:")
+print(eigenvalues)
+print("\nEigenvectors:")
+print(eigenvectors)
